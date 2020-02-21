@@ -1,0 +1,18 @@
+O projeto foi desenvolvido em NET Core 3.1
+
+-Criei a estrutura básica de testes usando xunit (não implementei testes em todo o projeto :/ )
+-Inicialmente pensei em separar meu código por mais de uma camada (projetos dll), mas percebi que não iria conseguir dar conta no tempo que eu tinha.
+-Tentei deixar o projeto o máximo sucinto possível, não consegui escapar de algumas complexidades (até por mim criadas)
+-Criei um contexto de segurança baseado em JWT. Tive alguns problemas para colocar no Header o Authorization Bearer, então criei um workaround para conseguir simular uma contexo de autorização.
+-O projeto está dividido em dois projetos (teste e web.api)
+	-Tentei fazer ao máximo para o meu projeto web.api estivesse organizado.
+	-Talvez em alguns pontos eu não soube usar muito bem o Clean code e o principio da responsabilidade única
+
+-Para executar o projeto, coloque a connection string no appSettings.
+	-Estou usando Migrations, o projeto já está preparado para executa-las assim que for iniciado.
+	-A base de dados vai criar as tabelas e popular os dados necessários
+	-O serviço de autenticação está lá para gerar o token
+	-Utilize o token no serviço de transferência
+	-O projeto está usando swagger :)
+
+Obrigado :)
