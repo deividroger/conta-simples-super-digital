@@ -18,3 +18,9 @@ para o emissor continuar o seu trabalho, o mesmo espera que o receptor concluia 
 Já a comunicação assincrona não espera que a comunicação aconteça online, o emissor não precisa da resposta do receptor para continuar seu trabalho.
 Um bom exemplo disso é a opção de pagar com cartão de crédito online. Ao comprar produtos em algumas lojas de varejo a cobrança do meu cartão de crédito
 não acontece instantaneamente.
+
+Utilize comunicação sincrona quando:
+	-Precisar de uma resposta imedita para realizar algum tipo de atividade;
+
+Utilize comunicação assincrona quando:
+	-O emissor da mensagem não precisa da resposta para continuar trabalhando;
