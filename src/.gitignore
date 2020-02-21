@@ -1,0 +1,8 @@
+bin/
+obj/
+debug/
+.vs/
+.cache
+.props
+.target
+.csproj.user
