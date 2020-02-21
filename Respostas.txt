@@ -1,0 +1,20 @@
+1) EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE
+
+O DDD é uma abordagem de desenvolvimento de software. Ele visa com que todos falem a mesma lingua e defende padrões de como construir(resolver o problema) de forma simples, incremental e adaptável.
+
+2) EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA  EM MICROSERVICES. 
+EXPLIQUE GANHOS COM ESTE MODELO E DESAFIOS EM SUA IMPLEMENTAÇÃO.
+
+O paradigma de microservices é uma forma de organizar seu software em pequenas partes independentes uma das outras com foco
+em baixo acoplamento. Uma boa forma de identificar microservices é encontrar os contextos delimitados do seu software e a partir dai começar a modelar e escrever os seus microserviços.
+
+
+3) EXPLIQUE QUAL A DIFERENÇA ENTRE COMUNICAÇÃO SINCRONA E ASSINCRONA E QUAL O MELHOR CENÁRIO PARA UTILIZAR UMA OU OUTRA.
+
+Comunicação sincrona é uma sequência de eventos que acontecem sincronizada e online. Um bom cenário de uma comunicação
+sincrona é o débito e crédito de uma conta corrente. Além de ser online, deve acontecer de forma instantanea. Nesa comunicação 
+para o emissor continuar o seu trabalho, o mesmo espera que o receptor concluia o seu (mensagem enviada) e dê um feedback para o emissor.
+
+Já a comunicação assincrona não espera que a comunicação aconteça online, o emissor não precisa da resposta do receptor para continuar seu trabalho.
+Um bom exemplo disso é a opção de pagar com cartão de crédito online. Ao comprar produtos em algumas lojas de varejo a cobrança do meu cartão de crédito
+não acontece instantaneamente.
